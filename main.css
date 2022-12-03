@@ -1,0 +1,126 @@
+/*Zeragem*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Cabeçalho*/
+header {
+    padding: 16px 0;
+    background-color: blue;
+    color: aliceblue;
+}
+
+header,
+form button,
+section h2,
+section h3 {
+    font-family: 'Kenia', cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Rubik', sans-serif;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    display: inline;
+    color: rgb(248, 251, 252);
+    text-decoration: none; /*retirar o sublinhado*/
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: black;
+    background-color: bisque;
+}
+
+.section {
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .container {
+    display: block;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
